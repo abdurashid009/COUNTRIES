@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>World flages</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="nav__bar">
+            <h1>
+                Where in the world?
+            </h1>
+         
+            
+            <button style="width: 300px; height: 50px; background-color: transparent; cursor: pointer ; border: none; color: white;" id="dark-mode">
+                <h1 class="derk">Dark mode</h1>
+            </button>
+        </div>
+        <div class="main_item">
+            <input type="text" id="search" placeholder="Search for a country...">
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="North America">North America</option>
+                <option value="Asia">Asia</option>
+
+            </select>
+        </div>
+       
+        <div class="countries" id="countries"></div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
